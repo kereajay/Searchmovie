@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        #image-poster-container {
+              display: grid;
+             
+             
+        }
+        #image-poster-container .card {
+            /* background-color: aqua;
+            color: red; */
+            text-align: center;
+            margin: auto;
+        }
+        #ten{
+            height: 100px;width: 100%;
+            /* background-color: aqua; */
+            
+            margin: auto;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        #ten input{
+            width: 20%;
+            height: 40%;
+            border-radius: 20px;
+            font-size: large;
+            padding: 5px;
+            
+            
+        }
+        #pagination{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="ten">
+        <h1 class="text-3xl font-bold">Search the Movie With Name</h1>
+        <br>
+        <input type="search" id="input1" class="border-4" placeholder="search..">
+        <br>
+    </div>
+
+    <div id="image-poster-container"
+        class="max-W-[100%] mx-auto lg:grid-cols-4 md:grid-cols-2 gap-4 px-[50px] rounded-lg">
+
+
+    </div>
+    <br>
+    <br>
+    <div id="pagination" >
+    </div>
+    <br>
+    
+    <!-- <script src="./script.js"></script> -->
+    <!-- <button   value="Previous" class="border-4 p-2 w-24 font-bold">Previous</button>
+    <span>${currentpage} of ${page1}</span>
+    <button  value="Next" class="border-4 p-2 w-24 font-bold">Next</button> -->
+    <script src="./script.js"></script>
+</body>
+
+</html>
